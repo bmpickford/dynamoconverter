@@ -1,0 +1,29 @@
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: min-content;
+    margin: auto;
+}
+
+.icons[data-active="false"] .icon-tabler-arrow-big-right {
+    transform: rotate(180deg);
+}
+
+.icons:hover .icon-tabler-switch-horizontal {
+    transform: scale(1.1);
+}
+
+.icon-tabler-switch-horizontal {
+    transition: transform 0.1s ease;
+}
+
+.icon-tabler-arrow-big-right {
+    margin: 0 24px;
+    height: 48px;
+    width: 48px;
+    stroke: var(--theme-primary);
+    transition: transform 0.4s ease;
+}

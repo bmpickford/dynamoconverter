@@ -1,0 +1,10 @@
+.textareas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.converter-container {
+    padding: 0 48px;
+    display: block;
+    text-align: center;
+}

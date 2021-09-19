@@ -1,0 +1,32 @@
+:root {
+  --button-shadow: 3px;
+}
+
+.btn-submit {
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  padding: 12px 16px;
+  background-color: var(--theme-primary-btn);
+  color: var(--theme-text-primary);
+  border-radius: 4px;
+  min-width: 180px;
+  border: none;
+  cursor: pointer;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+  transform: translateX(0) translateY(0);
+  box-shadow: var(--button-shadow) var(--button-shadow) 0 rgba(0, 0, 0, 1);
+}
+
+.btn-submit:hover {
+  background-color: var(--theme-primary-btn-active);
+}
+
+.btn-submit:active {
+  background-color: var(--theme-primary-btn-active);
+  transform: translateX(var(--button-shadow)) translateY(var(--button-shadow));
+  box-shadow: none;
+  outline: unset;
+  border: none;
+}
