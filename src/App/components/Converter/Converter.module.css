@@ -8,3 +8,19 @@
     display: block;
     text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+    .textareas {
+        flex-direction: column;
+    }
+
+    .textareas > * {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .converter-container {
+        padding: 16px 8px;
+    }
+}

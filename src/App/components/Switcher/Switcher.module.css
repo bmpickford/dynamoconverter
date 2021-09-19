@@ -27,3 +27,13 @@
     stroke: var(--theme-primary);
     transition: transform 0.4s ease;
 }
+
+@media screen and (max-width: 900px) {
+    .icon-arrow-right {
+        transform: rotate(90deg);
+    }
+
+    .icons[data-active="false"] .icon-arrow-right {
+        transform: rotate(270deg);
+    }    
+}
