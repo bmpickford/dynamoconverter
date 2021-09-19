@@ -1,8 +1,7 @@
 <h1 align="center">Dynamo Converter</h1>
+<h4 align="center">https://www.dynamoconverter.benpickford.me/</h4>
 
-> Convert DynamoDB JSON to and from regular JSON, <strong>with the added ability of converting arrays</strong>
-
-<p align="center">[App](https://benpickford.me/dynamoconverter)</p>
+<p align="center">Convert DynamoDB JSON to and from regular JSON, <strong>with the added ability of converting arrays</strong></p>
 
 
 ## Example
