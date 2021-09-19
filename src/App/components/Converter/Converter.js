@@ -68,9 +68,9 @@ export const Converter = ({ fromConverter, toConverter, fromTitle, toTitle }) =>
     return (
         <div className={styles['converter-container']}>
             <div className={styles['textareas']}>
-                <InputArea label={fromTitle} value={valOne} setValue={setValOne} error={errOne} />
+                <InputArea canEdit={direction === 1} label={fromTitle} value={valOne} setValue={setValOne} error={errOne} />
                 <Switcher ltr={direction === Direction.TO} toggleDirection={toggleDirection} />
-                <InputArea label={toTitle} value={valTwo} setValue={setValTwo} error={errTwo} />
+                <InputArea canEdit={direction === 2} label={toTitle} value={valTwo} setValue={setValTwo} error={errTwo} />
             </div>
             <SubmitButton label={'Submit'} onSubmit={onSubmit} />
         </div>

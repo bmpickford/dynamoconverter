@@ -1,6 +1,7 @@
 import { Converter } from "./components/Converter/Converter";
 import { DynamoToJSONConverter, JSONToDynamoConverter } from './utils/DynamoConverter';
 
+import './lib/prism.css';
 import './index.css';
 
 export default function App() {

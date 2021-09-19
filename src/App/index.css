@@ -36,3 +36,7 @@ button {
 * {
     font-family: 'Source Code Pro', monospace;
 }
+
+pre {
+  background: none !important;
+}

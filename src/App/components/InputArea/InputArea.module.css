@@ -25,8 +25,9 @@
     display: contents;
 }
 
-.area-input textarea {
+.area-input .code-display {
     min-height: var(--text-area-min-height);
+    max-height: 80vh;
     resize: vertical;
     border: 1px solid grey;
     border-radius: 4px;
@@ -35,4 +36,13 @@
 textarea:active, textarea:focus {
     box-shadow: 0 0 0 2px var(--theme-background), 0 0 1px 3px var(--theme-secondary);
     outline: 1px solid var(--theme-primary);
+}
+
+.code-display {
+    margin: 0 !important;
+    padding: 16px;
+}
+
+.code-display[data-active=false] {
+    display: none;
 }
