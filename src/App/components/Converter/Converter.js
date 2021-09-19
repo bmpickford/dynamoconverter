@@ -3,7 +3,7 @@ import { SubmitButton } from '../Button';
 import { InputArea, useInputAreaState } from '../InputArea';
 import { Switcher } from '../Switcher';
 
-import './Converter.css';
+import styles from './Converter.module.css';
 
 const Direction = {
     TO: 1,
@@ -66,8 +66,8 @@ export const Converter = ({ fromConverter, toConverter, fromTitle, toTitle }) =>
     }
 
     return (
-        <div className='converter-container'>
-            <div className='textareas'>
+        <div className={styles['converter-container']}>
+            <div className={styles['textareas']}>
                 <InputArea label={fromTitle} value={valOne} setValue={setValOne} error={errOne} />
                 <Switcher ltr={direction === Direction.TO} toggleDirection={toggleDirection} />
                 <InputArea label={toTitle} value={valTwo} setValue={setValTwo} error={errTwo} />

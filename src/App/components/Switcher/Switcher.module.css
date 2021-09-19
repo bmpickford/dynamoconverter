@@ -8,19 +8,19 @@
     margin: auto;
 }
 
-.icons[data-active="false"] .icon-tabler-arrow-big-right {
+.icons[data-active="false"] .icon-arrow-right {
     transform: rotate(180deg);
 }
 
-.icons:hover .icon-tabler-switch-horizontal {
+.icons:hover .icon-arrows-switch {
     transform: scale(1.1);
 }
 
-.icon-tabler-switch-horizontal {
+.icon-arrows-switch {
     transition: transform 0.1s ease;
 }
 
-.icon-tabler-arrow-big-right {
+.icon-arrow-right {
     margin: 0 24px;
     height: 48px;
     width: 48px;
